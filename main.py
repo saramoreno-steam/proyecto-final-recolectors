@@ -12,6 +12,8 @@ Humedad = 0
 Lluvia = 0
 pins.digital_write_pin(DigitalPin.P10, 0)
 servos.P2.set_angle(0)
+basic.show_icon(IconNames.HEART)
+basic.pause(3000)
 
 def on_forever():
     global Lluvia, Humedad
